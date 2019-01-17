@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: .deployment/api/Dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/app
+
+  frontend:
+    build:
+      context: .
+      dockerfile: .deployment/frontend/Dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app

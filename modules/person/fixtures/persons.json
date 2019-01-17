@@ -1,0 +1,18 @@
+[
+  {
+    "model": "person.myuser",
+    "pk": 1,
+    "fields": {
+      "name": "Ralph",
+      "email": "ralph@dev.com"
+    }
+  },
+  {
+    "model": "person.myuser",
+    "pk": 2,
+    "fields": {
+      "name": "Peter",
+      "email": "peter@later.de"
+    }
+  }
+]

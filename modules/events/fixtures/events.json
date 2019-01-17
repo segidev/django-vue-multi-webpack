@@ -1,0 +1,18 @@
+[
+  {
+    "model": "events.myevent",
+    "pk": 1,
+    "fields": {
+      "name": "Kino",
+      "date": "2019-02-25T20:15:00.0"
+    }
+  },
+  {
+    "model": "events.myevent",
+    "pk": 2,
+    "fields": {
+      "name": "Meeting",
+      "date": "2019-01-17T23:33:15.058707"
+    }
+  }
+]
