@@ -1,22 +1,13 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <person></person>
-    <hr>
-    <events></events>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Person from 'company-person-module/src/components/Person'
-import Events from 'company-events-module/src/components/Events'
-
 export default {
-  name: 'App',
-  components: {
-    Events,
-    Person
-  }
+  name: 'App'
 }
 </script>
 
