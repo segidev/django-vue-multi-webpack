@@ -8,4 +8,4 @@
 
 Visit [http://localhost:8000/myevents/](http://localhost:8000/myevents/)
 
-Visit [http://localhost:8000/](http://localhost:8000/)
+Visit [http://localhost:8080/](http://localhost:8080/)
