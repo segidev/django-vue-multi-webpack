@@ -18,3 +18,11 @@ services:
       - 8080:8080
     volumes:
       - ./www:/app
+
+  nginx:
+    image: nginx:alpine
+    working_dir: /usr/share/nginx/html
+    volumes:
+      - ./www/dist:/usr/share/nginx/html
+    ports:
+      - 8001:80
