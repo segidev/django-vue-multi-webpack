@@ -1,6 +1,6 @@
 # Only for presentation purpose
 
-1. `npm install`
+1. `cd www && npm install`
 2. `docker-compose up -d` (Wait for build)
 
 ## Add fixtures
